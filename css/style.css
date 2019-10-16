@@ -1,0 +1,292 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color: black;
+}
+h1{
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-bottom: 55px;
+}
+h2{
+  color: white;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 30px;
+  margin-bottom: 45px;
+  margin-top: 26px;
+}
+h3{
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-bottom: 65px;
+  margin-top: 135px;
+}
+h4{
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-bottom: 90px;
+  margin-top: 100px;
+}
+h5{
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+  color: blue;
+  background-color: black;
+  margin-bottom: 25px;
+  margin-top: 100px;
+}
+h6{
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+  font-size: 15px;
+  line-height: 3;
+}
+.team{
+  font-size: 25px;
+  color: blue;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  background-color: black;
+}
+
+.button_1{
+  height:38px;
+  background: blue;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+
+/* Header **/
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color: blue;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+.background {
+  max-width: 100%;
+}
+
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background: black;
+  margin-top: 60px
+}
+
+#newsletter form {
+  float: right;
+  margin-top: -55px;
+  padding-right: 120px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+.gamelocation {
+  font-weight: bold;
+  color: white;
+  float: center;
+} 
+.map1 { 
+  height: 350px;
+  padding-left: 500px;
+  margin-top: -598px;
+  width: 500px;
+}
+.l1 { 
+  margin-top: 30px;
+  color: darkblue;
+  font-size: 18px;
+}
+.maps { 
+  margin-top: 113px;
+}
+.text { 
+  padding-right: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  padding-left: 8px;
+  color: white;
+}
+.container { 
+  padding-right: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.subscribe  {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 310px;
+}
+
+/* media queries*/
+@media  screen and (max-width: 700px) {
+
+      h1  {
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      background-color: black;
+      margin-bottom: 55px;
+      padding-left: 285px
+      }
+      .background {
+        max-width: 143%;
+      }
+      header nav{
+        padding-right: 135px;
+      }
+      h2{
+        color: white;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 270px;
+        margin-bottom: 45px;
+        margin-top: 26px;
+        text-align: center;
+      }
+      h3{
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: black;
+        margin-bottom: 65px;
+        margin-top: 135px;
+        text-align: center;
+        padding-left: 270px;
+      }
+      .map1 { 
+        height: 350px;
+        padding-left: 410px;
+        margin-top: -598px;
+        width: 500px;
+      }
+      h4{
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: black;
+        margin-bottom: 65px;
+        margin-top: 135px;
+        text-align: center;
+        padding-left: 270px;
+      }
+      h5{
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 100px;
+        color: blue;
+        background-color: black;
+        margin-bottom: 25px;
+        margin-top: 100px;
+      }
+      .text { 
+        padding-left: 125px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: start;
+      }
+      h6{
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: black;
+        margin-bottom: 65px;
+        margin-top: 135px;
+        text-align: center;
+        padding-left: 270px;
+      }
+      #newsletter form {
+        float: left;
+        margin-top: -10px;
+        padding-left: 50px;
+      }
+      .button_1{
+        height: 38px;
+        background: blue;
+        border: 0;
+        padding-left: 12px;
+        padding-right: 12px;
+        color:#ffffff;
+      }
+      .mail { 
+        float: left;
+        margin-top: 40px;
+        padding-left: 18px;
+      }
+      .subscribe  {
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 164px;
+      }
+      
+      }
